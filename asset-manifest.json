@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/home/static/css/main.c3d677af.css",
+    "main.js": "/home/static/js/main.e2e32afb.js",
+    "static/media/solucaut.png": "/home/static/media/solucaut.6c5895ab73aa2d677fcc.png",
+    "static/media/linkapi.png": "/home/static/media/linkapi.994e9f861dc031c327c9.png",
+    "index.html": "/home/index.html",
+    "main.c3d677af.css.map": "/home/static/css/main.c3d677af.css.map",
+    "main.e2e32afb.js.map": "/home/static/js/main.e2e32afb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c3d677af.css",
+    "static/js/main.e2e32afb.js"
+  ]
+}
