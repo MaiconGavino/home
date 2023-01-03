@@ -1,13 +1,13 @@
 {
   "name": "portifolio-para-developer",
   "description": "Um template de site estático pessoal/portifolio hosteado com o Github Pages, construído para mostrar meus projetos recentes",
-  "homepage": "https://www.tashima.click",
+  "homepage": "https://www.maicongavino.github.io/home",
   "version": "0.1.0",
   "private": false,
   "author": {
-    "name": "Pedro Tashima",
-    "email": "pedrotashima@pm.me",
-    "url": "https://github.com/tashima42"
+    "name": "Maicon Gavino",
+    "email": "maiconserrao57@gmail.com",
+    "url": "https://github.com/maicongavino"
   },
   "dependencies": {
     "axios": "^0.27.2",

@@ -6,18 +6,18 @@ const navBar = {
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Pedro",
+  firstName: "Maicon",
   middleName: "",
-  lastName: "Tashima",
-  message: "Integrations Technical Specialist",
+  lastName: "Gavino",
+  message: "",
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/tashima42",
+      url: "https://github.com/maicongavino",
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/pedrotashima/",
+      url: "https://www.linkedin.com/in/maicon-gavino/",
     }
   ],
 };
@@ -38,12 +38,11 @@ const mainBody = {
 
 const about = {
   show: true,
-  heading: "About Me",
-  imageLink: "https://media-exp1.licdn.com/dms/image/C4D03AQGNHoKxrUcKOQ/profile-displayphoto-shrink_400_400/0/1653082085501?e=1665014400&v=beta&t=WbjZ3nOgdAU8v_odAep3_DWujohEOclqvOQsMbyjBLs",
+  heading: "Sobre",
+  imageLink: "https://media.licdn.com/dms/image/C4D03AQEqj1qiRi-cHQ/profile-displayphoto-shrink_800_800/0/1663068763485?e=1678320000&v=beta&t=PcNXhO8LqliZhSsZDqvdJlCSzUgPlYAZD_Wc0LqsOF4",
   imageSize: 375,
-  message: `Hi, I'm Pedro, I'm very passionate about tech. I've been working professionally with it for over 3 years, but I've loved it my entire life! At this moment, I'm working as an Integrations Technical Specialist, I help streaming services, like Paramount+ and DirectvGO to integrate their products with Multi Service Operators and Internet Service Providers. 
-I'm also studying Software Engineering at the Federal University of Technology - Paraná, in Brazil.`,
-  resume: "https://tashima42.github.io",
+  message: `Olá, sou Maicon Gavino, tenho 25 anos, sou muito apaixonado por tecnologia. Sou Matemático, Pós graduado em Desenvolvimento de Aplicações em DotNet, MBA em BIG DATA e Mestrando em Propriedade Intelectual e Transferência de Tecnologia. Sou apaixonado pelas áreas de inovação e tecnologia. Meu foco e objetivo de carreia é como Data Science / Engenheiro de Dados, onde busco usufruir da minha facilidade para aprender sozinho, e curiosidade para aprender novas tecnologias, arquiteturas e ferramentas. Atualmente, estou trabalhando como Community Manager em um Hub de Inovação e como Consultor de inovação.  `,
+  resume: "https://maicongavino.github.io",
 };
 
 // PROJECTS SECTION
@@ -53,10 +52,10 @@ I'm also studying Software Engineering at the Federal University of Technology -
 //      i.e ["repository-1", "repo-2"]
 const repos = {
   show: true,
-  heading: "Projects",
-  gitHubUsername: "tashima42", //i.e."johnDoe12Gh"
+  heading: "Projetos",
+  gitHubUsername: "maicongavino", //i.e."johnDoe12Gh"
   reposLength: 0,
-  specificRepos: ["hash-id", "pomo", "nodejs-oauth2-server", "hash-id-js"],
+  specificRepos: ["inpi_serie_temporal ", "streamlit_gsheetsdb", "webscrapy_streamlit", "gocv_count "],
 };
 
 // Leadership SECTION
@@ -80,41 +79,37 @@ const leadership = {
 
 // SKILLS SECTION
 const skills = {
-  show: false,
+  show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "Python", value: 80 },
+    { name: "SQL", value: 70 },
+    { name: "Data Structures", value: 70 },
+    { name: "C/C++", value: 60 },
+    { name: "Golang", value: 60 },
+    { name: "C#", value: 50 },
   ],
   softSkills: [
-    { name: "Goal-Oriented", value: 80 },
-    { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
-    { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 75 },
-    { name: "Empathy", value: 90 },
-    { name: "Organization", value: 70 },
-    { name: "Creativity", value: 90 },
+    { name: "Colaboração", value: 90 },
+    { name: "Adaptabilidade", value: 85 },
+    { name: "Resolução de problemas", value: 85 },
+    { name: "Empatia", value: 90 },
+    { name: "Organização", value: 85 },
+    { name: "Criatividade", value: 90 },
   ],
 };
 
 // GET IN TOUCH SECTION
 const getInTouch = {
   show: true,
-  heading: "Get In Touch",
+  heading: "Contato",
   message:
-    "If you need help in a project, or maybe have something interesting to say, please contact me at",
-  email: "pedrotashima@protonmail.com",
+    "Se precisar de ajuda em um projeto, ou talvez tenha algo interessante a dizer, entre em contato comigo em",
+  email: "maiconserrao57@gmail.com",
 };
 
 const experiences = {
-  show: true,
+  show: false,
   heading: "Experiences",
   data: [
     {

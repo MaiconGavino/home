@@ -19,7 +19,7 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
   }, [link]);
 
   const handleRequest = async () => {
-    const instaLink = "https://www.instagram.com/";
+    const instaLink = "https://www.instagram.com/maicongavino";
     const instaQuery = "/?__a=1";
     try {
       const response = await axios.get(instaLink + link + instaQuery);
@@ -51,16 +51,16 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
             <p className="lead text-center">{message}</p>
             {resume && (
               <p className="lead text-center">
-                <a
+                { <a
                   className="btn btn-outline-dark btn-lg"
-                  href={resume}
+                  href="https://drive.google.com/file/d/1M7mYX3eEv8-j3yTYP0iLM5QVYUVzbM9k/view?usp=share_link"
                   target="_blank"
                   rel="noreferrer noopener"
                   role="button"
                   aria-label="Resume/CV"
                 >
-                  Resume
-                </a>
+                  Curriculo
+                </a> }
               </p>
             )}
           </div>
